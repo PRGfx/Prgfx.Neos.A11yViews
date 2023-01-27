@@ -1,0 +1,23 @@
+Prgfx.Neos.A11yViews:HeadingLevelsMixin:
+  abstract: true
+  superTypes:
+    'Prgfx.Neos.A11yViews:A11yViewMixin': true
+  ui:
+    inspector:
+      groups:
+        headingLevels:
+          tab: accessibility
+          label: i18n
+          icon: heading
+      views:
+        headingLevelsDescription:
+          group: headingLevels
+          view: 'Prgfx.Neos.MarkdownView/MarkdownView'
+          viewOptions:
+            content: Prgfx.Neos.A11yViews:NodeTypes.HeadingLevelsMixin:description
+        headingLevels:
+          group: headingLevels
+          view: 'Prgfx.Neos.MarkdownView/MarkdownView'
+          viewOptions:
+            content: ClientEval:window.prgfxA11yViews.evaluateHeadings(node)
+            className: prgfxA11yViews__HeadingLevels

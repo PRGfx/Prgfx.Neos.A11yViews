@@ -1,0 +1,19 @@
+/* adjust for spacing between subsequent views */
+.prgfxA11yViews__HeadingLevels {
+    margin-block-start: -1rem;
+}
+.prgfxA11yViews__HeadingLevels ul ul {
+    margin-inline-start: 0.5rem;
+}
+.prgfxA11yViews__HeadingLevels li {
+    margin-block-start: 0.5rem;
+}
+/* we can't use just any HTML, so we work with what we got */
+.prgfxA11yViews__HeadingLevels em {
+    font-family: "Noto Color Emoji", sans-serif;
+    color: #ff460d;
+    font-style: normal;
+}
+.prgfxA11yViews__HeadingLevels em ~ strong {
+    color: #ff460d;
+}

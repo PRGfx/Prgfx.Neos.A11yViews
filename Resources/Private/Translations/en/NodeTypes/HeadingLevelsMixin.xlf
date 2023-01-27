@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Prgfx.Neos.A11yViews" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="groups.headingLevels">
+                <source>Heading levels</source>
+            </trans-unit>
+            <trans-unit id="description">
+                <source>Make sure that heading levels only ever increase by 1. Skipping heading ranks can be confusing.</source>
+            </trans-unit>
+            <trans-unit id="noHeadings">
+                <source>No headings found on this page.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

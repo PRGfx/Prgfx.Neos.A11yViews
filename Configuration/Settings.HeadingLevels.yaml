@@ -1,0 +1,10 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          'Prgfx.Neos.A11yViews:HeadingLevels':
+            resource: resource://Prgfx.Neos.A11yViews/Public/HeadingLevels/script.js
+        stylesheets:
+          'Prgfx.Neos.A11yViews:HeadingLevels':
+            resource: resource://Prgfx.Neos.A11yViews/Public/HeadingLevels/styles.css

@@ -1,0 +1,9 @@
+Prgfx.Neos.A11yViews:A11yViewMixin:
+  abstract: true
+  ui:
+    inspector:
+      tabs:
+        accessibility:
+          icon: universal-access
+          label: i18n
+          position: before meta

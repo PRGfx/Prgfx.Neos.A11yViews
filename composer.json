@@ -1,0 +1,17 @@
+{
+    "name": "prgfx/neos-a11y-views",
+    "description": "Node-views for accessibility concerns in the Neos CMS",
+    "keywords": ["neos", "neoscms", "accessibility"],
+    "type": "neos-package",
+    "require": {
+        "prgfx/neos-markdown-view": "^v0.1.1"
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Prgfx.Neos.A11yViews"
+        }
+    },
+    "scripts": {
+        "translations": "for file in $(find Resources/Private/Translations/de/ -name '*.xlf'); do cat $file | grep -v '<target>' | sed 's/ target-language=\"..\"//' > $(echo $file | sed 's#Translations/de/#Translations/en/#') && sed -i \"s/$(printf '\t')/    /g\" \"$(echo $file | sed 's#Translations/de/#Translations/en/#')\"; done;"
+    }
+}
