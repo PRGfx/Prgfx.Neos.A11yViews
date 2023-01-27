@@ -1,0 +1,10 @@
+.prgfxA11yViews__ImageAlt img {
+    margin: 0;
+    padding: 0;
+    max-width: 250px;
+    max-height: 150px;
+}
+
+.prgfxA11yViews__ImageAlt li + li {
+    margin-block-start: 1rem;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Prgfx.Neos.A11yViews" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="groups.imagealt">
+                <source>Image descriptions</source>
+                <target>Bildbeschreibungen</target>
+            </trans-unit>
+            <trans-unit id="description">
+                <source>Images should include an alternative (alt) text to describe the content, in case the image is not loaded or not perceivable by the user. The following images are lacking an alternative text:</source>
+                <target>Bilder sollten einen Alternativ- (Alt-) Text enthalten, um den Inhalt zu beschreiben, falls das Bild nicht geladen oder durch die Nutzenden wahrgenommen werden kann. Den folgenden Bildern fehlt ein Alternativtext:</target>
+            </trans-unit>
+            <trans-unit id="noErrors">
+                <source>All images have an alternative text or are marked as decorative.</source>
+                <target>Alle Bilder haben einen Alternativtext oder sind als dekorativ ausgezeichnet.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

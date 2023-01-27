@@ -1,0 +1,23 @@
+Prgfx.Neos.A11yViews:ImageAltMixin:
+  abstract: true
+  superTypes:
+    'Prgfx.Neos.A11yViews:A11yViewMixin': true
+  ui:
+    inspector:
+      groups:
+        imagealt:
+          tab: accessibility
+          label: i18n
+          icon: image
+      views:
+        headingLevelsDescription:
+          group: imagealt
+          view: 'Prgfx.Neos.MarkdownView/MarkdownView'
+          viewOptions:
+            content: Prgfx.Neos.A11yViews:NodeTypes.ImageAltMixin:description
+        headingLevels:
+          group: imagealt
+          view: 'Prgfx.Neos.MarkdownView/MarkdownView'
+          viewOptions:
+            content: ClientEval:window.prgfxA11yViews.evaluateImageAlt(documentNode)
+            className: prgfxA11yViews__ImageAlt

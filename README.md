@@ -18,3 +18,9 @@ Showcases
 * populating a markdown-view from translation
 * populating a markdown-view from ClientEval with node context
 * translating markdown-content from client evaluation
+
+### Prgfx.Neos.A11yViews:ImageAltMixin
+Includes a view that will list all images without alt attribute or `[role=presentation]`.
+
+Showcases
+* resolving data as promise; loads image names from FlowQuery endpoint

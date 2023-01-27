@@ -4,7 +4,7 @@
     "keywords": ["neos", "neoscms", "accessibility"],
     "type": "neos-package",
     "require": {
-        "prgfx/neos-markdown-view": "^v0.1.1"
+        "prgfx/neos-markdown-view": "^v0.1.2"
     },
     "extra": {
         "neos": {
